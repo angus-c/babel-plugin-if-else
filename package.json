@@ -1,0 +1,27 @@
+{
+  "name": "babel-plugin-if-else-expression",
+  "version": "1.0.0",
+  "description": "convert if-else statements into an expression",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "plugin",
+    "babel",
+    "if-else",
+    "statement",
+    "expression",
+    "ternary"
+  ],
+  "author": "Angus Croll",
+  "license": "MIT",
+  "dependencies": {
+    "just-last": "^2.0.0",
+    "just-safe-get": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  }
+}
